@@ -8,7 +8,7 @@ locals {
 
 # Retrieve global variables from the Terraform module
 module "globalvars" {
-  source = "/home/ec2-user/environment/modules/globalvars"
+  source = "/home/ec2-user/environment/ACS730_Group3_Project/modules/globalvars"
 }
 
 
