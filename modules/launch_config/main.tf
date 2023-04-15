@@ -34,7 +34,7 @@ locals {
 
 # Launch Configuration
 resource "aws_launch_configuration" "as_conf" {
-  name                        = "linux2"
+  name                        = "linux"
   image_id                    = "ami-0c02fb55956c7d316"
   instance_type               = var.type
   security_groups             = [var.sg_id]
